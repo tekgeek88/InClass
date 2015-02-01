@@ -46,18 +46,19 @@ public class methodGrouping { // main class
 		while (inputPlayAgain < 1 || inputPlayAgain > 2){
 			inputPlayAgain = TextIO.getInt();
 			System.out.print("That is not a valid selection, please enter '1' for yes or '2' for no: ");
-				
+			
+			
 		}//end of while inputPlayAgina
 		
-		if (inputPlayAgain == 1){
+		
+		/*if (inputPlayAgain == 1){
 			playAgain = true;
 			System.out.println("\nContinuing program");
 		}
 		else if (inputPlayAgain == 2){
 			playAgain = false;
 			System.out.println("\nExiting program");
-		}
-	
+		}*/
 		}// end of while loop
 	
 		System.out.println("\nProgram has terminated succesfully");
