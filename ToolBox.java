@@ -1,14 +1,14 @@
 
 class ToolBox     
 {
-   public static double fun ( double a, double b )
+   public static double fun ( double x, double y )
    {
-      double m = 0;
+      double t = 0;
 
-      a = a + 1;
-      b = b + 2;
-      m = a + b;
+      x = x + 1;
+      y = y + 2;
+      t = x + y;
 
-      return(m);   // Output of the method
+      return(t);   // Output of the method
    }
 }

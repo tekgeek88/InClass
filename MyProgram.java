@@ -6,7 +6,7 @@ public class MyProgram {
 	      double y = 4.0;
 	      double r;
 
-	     r = ToolBox.fun( x,  y );
+	     r = ToolBox.fun( 5,  5 );
 
 	      System.out.println("x = " + x);
 	      System.out.println("y = " + y);
